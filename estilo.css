@@ -1,0 +1,398 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    display:flex;
+    min-height:20px;
+    background-color:whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   
+    
+}
+
+.empresa{
+    color:rgb(208, 9, 165) ;
+    font-size:30px;
+    margin-left:30px;
+}
+
+nav a {
+
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-right: 10px;
+    margin:5px;
+    margin-right: 20px;
+   
+
+}
+
+nav a:hover {
+    color:rgb(208, 9, 165);
+}
+@media (max-width:800px) {
+    header{
+        flex-direction: column;
+    }
+       
+}
+.imagen1{
+    width:99vw ;
+    height:80vh;
+    position:relative;
+    filter:brightness(0.6);
+    
+}
+
+.boton{
+    padding:0.5rem 1rem;
+    position:absolute;
+    top:70% ;
+    left:45%;
+    border: 1px transparent;
+    color: white;
+    font-weight: bold;
+    background:rgb(208, 9, 165);
+    text-decoration: none;
+
+}
+.caja1{
+    position: relative;
+}
+#titulo{
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    top:30%;
+    left: 25%;
+    display: flex;
+    text-align: center;
+}
+h2{  color:black;
+        
+}
+#ada{
+    display: flex;
+    position: relative;
+    left:80px;
+    color:rgb(244, 78, 194);
+    margin:20px;
+    top:-45px;
+    font-size:22px;
+        
+}
+
+.seccion2{
+    position:relative;
+    display: flex;
+    flex-direction: row;
+}
+.caja2{
+    position:absolute;
+}
+
+.caja3{
+    position:absolute;
+    left:800px;
+    top:300px;
+        
+}
+
+.imagen2{
+    position:absolute;
+    width: 30vw;
+    height: 40vh;
+    left: 200px;
+    top:250px;
+    bottom:200px;
+}
+
+@media (min-width: 1200px){
+
+}
+@media (min-width: 992px) and ( max-width:1199){
+    
+}
+@media (min-width: 768px) and ( max-width:991){
+    
+}
+@media (min-width: 576px) and ( max-width:575){
+    
+}
+
+.seccion3{
+
+    display:flex;
+    background:rgb(29, 25, 25);
+    width:99vw ;
+    height:80vh;
+    margin:4px;
+    padding:40px;
+    left:50px;
+    top:800px;
+    justify-content: space-between;
+    position:relative;
+    margin-left:-42px;
+        
+}
+
+
+#strong{
+    display:flex;  
+    justify-content: center;
+    position:absolute;
+    left:400px;
+    right:500px;
+    color: white;
+    height:40px;
+    font-size:40px;
+    top:40px;
+    margin-top:50px;
+    margin-left:5px ;
+    margin-right:5px ;
+}
+
+.front{
+
+    display: flex;
+    position:absolute;
+    flex-direction: row;
+    top:200px;
+    width:200px;
+    height:400px;
+    left:400px;
+    background: rgb(80, 80, 76);
+    border-width: 2px 2px 4px 2x;
+    border-style:solid;
+    border-radius:10px 10px 15px 15px;
+    
+    
+}
+
+.stack{
+
+   
+    display: flex;
+    position:absolute; 
+    top:200px;
+    width:200px;
+    height:400px;
+    left:670px;
+    background: rgb(80, 80, 76);
+    border-width: 2px 2px 4px 2x;
+    border-style:solid;
+    border-radius:10px 10px 15px 15px;
+    
+}
+
+.python{
+
+    
+    display: flex;
+    position:absolute;
+    flex-direction: row;
+    right:60px;
+    top:200px;
+    width:200px;
+    height:400px;
+    left:950px;
+    background: rgb(80, 80, 76);
+    border-radius:10%;
+    border-width: 2px 2px 4px 2x;
+    border-style:solid;
+    border-radius:10px 10px 15px 15px;
+
+    
+}
+.fotito1{
+    
+    border-width: 2px 2px 4px 2x;
+    border-style:solid;
+    border-radius:8px 8px 8px 8px;
+    
+}
+.fotito2{
+    
+    border-width: 2px 2px 4px 2x;
+    border-style:solid;
+    border-radius:8px 8px 8px 8px;
+    
+}
+.fotito3{
+    
+    border-width: 2px 2px 4px 2x;
+    border-style:solid;
+    border-radius:8px 8px 8px 8px;
+    
+}
+    
+.texto1{
+    position:absolute ;
+    top:30px;
+    left:25%;
+    font-size:18px;
+    font-weight:bold;
+    color:white;
+    
+}
+.texto2{
+    position:absolute ;
+    top: 30px;
+    left: 25%;
+    font-size:18px;
+    font-weight:bold;
+    color:white;
+}
+.texto3{
+    position:absolute ;
+    top:30px;
+    left: 25%;
+    font-size:18px;
+    font-weight:bold;
+    color:white;
+}
+#uno {
+
+    color: white;
+    position:relative;
+    display: flex;
+    text-align:start;
+    bottom:-90px;
+    right:150px;
+    
+    
+    
+}
+#dos {
+    
+    color: white;
+    position:relative;
+    display: flex;
+    text-align:start;
+    bottom:-90px;
+    right:150px;
+    font-size:100%;
+        
+}
+#tres {
+    color: white;
+    position:relative;
+    display: flex;
+    text-align:start;
+    bottom:-90px;
+    right:145px;
+}
+
+
+    
+@media (min-width: 1200px){
+
+}
+@media (min-width: 992px) and ( max-width:1199){
+    
+}
+@media (min-width: 768px) and ( max-width:991){
+    
+}
+@media (min-width: 576px) and ( max-width:575){
+    
+}
+.boton2{
+    padding:0.5rem 1rem;
+    position:absolute;
+    top:80% ;
+    left:30%;
+    width:50px;
+    border: 1px transparent;
+    color: white;
+    font-weight: bold;
+    background:rgb(208, 9, 165);
+    text-decoration: none;
+
+}
+
+.pagina{
+        display: flex;
+        position: relative;
+}
+
+#iconos{
+    display: flex;
+    flex-direction:column;
+    position:absolute;
+    top:860px;
+    right:400px;
+    
+    
+    
+}
+#letras{
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    bottom:-1800px;
+    right:-200px ;
+    top:860px;
+    width:170px;
+    height:220px;
+   
+}
+#chica{
+    display: flex;
+    top:800px;
+    bottom:300px;
+    position:relative;
+    right:-600px ;
+    width:400px;
+    height:400px;
+
+}
+
+.final{
+    display: flex;
+    position:absolute;
+    top: 1300px;
+    right:100px;
+    width:2000px;
+    height:600px;
+    background-color: rgb(223, 6, 139);
+}
+#dice{
+    display: flex;
+    position:relative;
+    align-items: center;
+    font-size:50px ;
+    left:950px;
+    color: white;
+}
+.boton3{
+    padding:0.5rem 1rem;
+    position:absolute;
+    top:60% ;
+    left:56%;
+    border:2px solid rgb(86, 2, 40);
+    border-radius:3px 3px 3px 3px;
+    color:bisque;
+    font-weight: bold;
+    background:rgb(252, 8, 118);
+    text-decoration: none;
+    box-shadow:0 0 25px rgb(21, 24, 23);   
+    
+}
+@media (min-width: 1200px){
+
+}
+@media (min-width: 992px) and ( max-width:1199){
+    
+}
+@media (min-width: 768px) and ( max-width:991){
+    
+}
+@media (min-width: 576px) and ( max-width:575){
+    
+}
